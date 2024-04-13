@@ -1,4 +1,4 @@
-//links to aboutme, portfolio, contact, resume
+//links to aboutme page, portfolio, contact, resume page
 function Navigation (){
 return <div>
     <nav>
