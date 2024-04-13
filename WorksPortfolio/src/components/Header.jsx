@@ -1,4 +1,4 @@
-// nav and title with developers name
+// nav and title with developers name add h2 for different pages
 import Navigation from "./Navigation";
 function Header() {
     return <div>
