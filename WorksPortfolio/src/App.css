@@ -28,6 +28,9 @@ a {
 .active{
   display:none;
 }
+main{
+  margin:10px;
+}
 img{
   max-width: 200px;
 }

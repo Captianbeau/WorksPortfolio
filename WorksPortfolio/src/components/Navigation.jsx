@@ -20,7 +20,7 @@ function Navigation() {
                 to="/Resume"
                 className={currentPage === '/Resume' ? 'nav active' : 'navLink'}
             >
-                My Resume
+                Resume
             </Link>
             <Link
                 to="/Contact"
