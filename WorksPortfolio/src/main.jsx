@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider,Navigate } from 'react-router-dom';
 import './index.css'
 
-import App from './App.jsx'
+import App from './App.jsx';
 import AboutMe from './pages/AboutMe.jsx';
-import Resume from './pages/Resume.jsx'
-import Works from './pages/Works.jsx'
+import Resume from './pages/Resume.jsx';
+import Works from './pages/Works.jsx';
+import Contact from './pages/ContactForm.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
         path: '/Works',
         element: <Works />
       },
+      {
+        path: '/Contact',
+        element:<Contact />
+      }
     ],
   },
 ]);
