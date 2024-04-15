@@ -2,7 +2,6 @@ import Avatar from '../assets/images/avatarPortNew.jpg'
 export default function AboutMe() {
     //need a profile pic
     return <div className='aboutMe'>
-        <h2>About Me</h2>
         <img src={Avatar} alt='Avatar' className= "avatar" />
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
              when an unknown printer took a galley of type and scrambled it to make a 

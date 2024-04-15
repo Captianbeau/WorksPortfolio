@@ -6,7 +6,6 @@ import Books from '../assets/images/BooksRefactor.png';
 import GitLogo from '../assets/images/github-mark.png';
 export default function Works() {
     return <div>
-        <h2>Works</h2>
         <div>
             <h3>Weather App</h3>
             <div className='works'>
