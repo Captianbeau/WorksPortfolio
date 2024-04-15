@@ -8,43 +8,50 @@ export default function Works() {
         <h2>Works</h2>
         <div>
             <div>
-                <img src={Weather} alt='Weather App image' />
+                <h3>Weather App</h3>
+                <a href='https://captianbeau.github.io/WeatherApp/'>
+                <img src={Weather} alt='Website Screenshot' />
+                </a>
                 <p className='description'>description</p>
             </div>
-            <a>Weather App</a>
-            <a>Git Hub</a>
+            
+            <a href='https://github.com/Captianbeau/WeatherApp'>Git Hub</a>
         </div>
         <div>
             <div>
-                <img src={Schedule} />
-                <p className='description'>description</p>
+            <h3></h3>
+            <a href='https://captianbeau.github.io/Scheduler/'><img src={Schedule} alt='Website Screenshot' /></a>
+                
             </div>
-            <a>Scheduling App</a>
-            <a>Git Hub</a>
+            
+            <a  href='https://github.com/Captianbeau/Scheduler'>Git Hub</a>
         </div>
         <div>
             <div>
-                <img src={Quiz} />
+            <h3></h3>
+                <img src={Quiz} alt='Website Screenshot'/>
                 <p className='description'>description</p>
             </div>
-            <a>Quiz</a>
-            <a>Git Hub</a>
+            <a href='https://captianbeau.github.io/Quiz-DarbiesADHD/'>Quiz</a>
+            <a href='https://github.com/Captianbeau/Quiz-DarbiesADHD'>Git Hub</a>
         </div>
         <div>
             <div>
-                <img src={Garden} />
+            <h3></h3>
+                <img src={Garden} alt='Website Screenshot'/>
                 <p className='description'>description</p>
             </div>
-            <a>Garden Planner</a>
-            <a>Git Hub</a>
+            <a href='https://captianbeau.github.io/Garden-Planner/'>Garden Planner</a>
+            <a href='https://github.com/Captianbeau/Garden-Planner'>Git Hub</a>
         </div>
         <div>
             <div>
-                <img src={Books} />
+            <h3></h3>
+                <img src={Books} alt='Website Screenshot'/>
                 <p className='description'>description</p>
             </div>
-            <a>Google Books</a>
-            <a>Git Hub</a>
+            <a href='https://booksrefactor.onrender.com/'>Google Books</a>
+            <a href='https://github.com/Captianbeau/BooksRefactor'>Git Hub</a>
         </div>
     </div>
 }
