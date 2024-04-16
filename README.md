@@ -12,19 +12,22 @@ This is a portfolio of the deployed apps I made while I was in school.  It has s
 ## Usage
 
 From the first page users can see about me.  They can use the navigation to visit the other pages of the application.
+  ![Navigation](assets/images/screenshot.png)
 My work page displays image links of my applications and their GitHub repositories.
+  ![Links example](assets/images/screenshot.png)
 The Resume page has the text of my resume and a link to the google document.
+  ![Resume link](assets/images/screenshot.png)
 On the contact a user can input their name, email and a message for me.
+  ![Contact Form](assets/images/screenshot.png)
 
    ![alt text](assets/images/screenshot.png)
 
 
 
 ## Credits
-
-https://www.youtube.com/watch?v=dG_ETBR8viE youtube video
-https://medium.com/@thomasaugot/create-a-react-contact-form-with-email-js-cad2c8606f33 article
-emailjs docs
+- [alt text](https://www.youtube.com/watch?v=dG_ETBR8viE)
+- [alt text](https://medium.com/@thomasaugot/create-a-react-contact-form-with-email-js-cad2c8606f33)
+- emailjs docs
 
 
 ## License
@@ -33,7 +36,7 @@ MIT
 
 
 ## ScreenShots
-
+![alt text](assets/images/screenshot.png)
 
 ![badmath]()
 
