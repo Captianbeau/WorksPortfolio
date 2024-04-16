@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider,Navigate } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 import './index.css'
 
 import App from './App.jsx';
@@ -11,17 +11,17 @@ import Contact from './pages/ContactForm.jsx';
 
 const router = createBrowserRouter([
   {
-    path:'/',
-    element:<App />,
-    errorElement: <Navigate to= "/" />,
+    path: '/',
+    element: <App />,
+    errorElement: <Navigate to="/" />,
     children: [
       {
         index: true,
         element: <AboutMe />
       },
       {
-      path: '/Resume',
-      element: <Resume />
+        path: '/Resume',
+        element: <Resume />
       },
       {
         path: '/Works',
@@ -29,12 +29,12 @@ const router = createBrowserRouter([
       },
       {
         path: '/Contact',
-        element:<Contact />
+        element: <Contact />
       }
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-<RouterProvider router={router} />
+  <RouterProvider router={router} />
 );
