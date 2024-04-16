@@ -10,10 +10,10 @@ export default function Works() {
             <h3>Weather App</h3>
             <div className='works'>
 
-                <a href='https://captianbeau.github.io/WeatherApp/'>
-                    <img src={Weather} alt='Website Screenshot' />
+                <a className='workLink' href='https://captianbeau.github.io/WeatherApp/'>
+                    <img className='workImg' src={Weather} alt='Website Screenshot' />
                 </a>
-                <a href='https://github.com/Captianbeau/WeatherApp'>
+                <a className='workLink' href='https://github.com/Captianbeau/WeatherApp'>
                     <img src={GitLogo} alt='GitHub Logo' />
                 </a>
             </div>
@@ -24,10 +24,10 @@ export default function Works() {
             <h3>Scheduler</h3>
             <div className='works'>
 
-                <a href='https://captianbeau.github.io/Scheduler/'>
-                    <img src={Schedule} alt='Website Screenshot' />
+                <a className='workLink' href='https://captianbeau.github.io/Scheduler/'>
+                    <img className='workImg' src={Schedule} alt='Website Screenshot' />
                 </a>
-                <a href='https://github.com/Captianbeau/Scheduler'>
+                <a className='workLink' href='https://github.com/Captianbeau/Scheduler'>
                     <img src={GitLogo} alt='GitHub Logo' />
                 </a>
             </div>
@@ -38,10 +38,10 @@ export default function Works() {
             <h3>Quiz</h3>
             <div className='works'>
 
-                <a href='https://captianbeau.github.io/Quiz-DarbiesADHD/'>
-                    <img src={Quiz} alt='Website Screenshot' />
+                <a className='workLink' href='https://captianbeau.github.io/Quiz-DarbiesADHD/'>
+                    <img className='workImg' src={Quiz} alt='Website Screenshot' />
                 </a>
-                <a href='https://github.com/Captianbeau/Quiz-DarbiesADHD'>
+                <a className='workLink' href='https://github.com/Captianbeau/Quiz-DarbiesADHD'>
                     <img src={GitLogo} alt='GitHub Logo' />
                 </a>
 
@@ -53,10 +53,10 @@ export default function Works() {
             <h3>Garden Planner</h3>
             <div className='works'>
 
-                <a href='https://captianbeau.github.io/Garden-Planner/'>
-                    <img src={Garden} alt='Website Screenshot' />
+                <a className='workLink' href='https://captianbeau.github.io/Garden-Planner/'>
+                    <img className='workImg' src={Garden} alt='Website Screenshot' />
                 </a>
-                <a href='https://github.com/Captianbeau/Garden-Planner'>
+                <a className='workLink' href='https://github.com/Captianbeau/Garden-Planner'>
                     <img src={GitLogo} alt='GitHub Logo' />
                 </a>
 
@@ -68,10 +68,10 @@ export default function Works() {
             <h3>Google Books</h3>
             <div className='works'>
 
-                <a href='https://booksrefactor.onrender.com/'>
-                    <img src={Books} alt='Website Screenshot' />
+                <a className='workLink' href='https://booksrefactor.onrender.com/'>
+                    <img className='workImg' src={Books} alt='Website Screenshot' />
                 </a>
-                <a href='https://github.com/Captianbeau/BooksRefactor'>
+                <a className='workLink' href='https://github.com/Captianbeau/BooksRefactor'>
                     <img src={GitLogo} alt='GitHub Logo' />
                 </a>
             </div>
