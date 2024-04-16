@@ -14,7 +14,7 @@ export default function Works() {
                     <img className='workImg' src={Weather} alt='Website Screenshot' />
                 </a>
                 <a className='workLink' href='https://github.com/Captianbeau/WeatherApp'>
-                    <img src={GitLogo} alt='GitHub Logo' />
+                    <img className='gitLink' src={GitLogo} alt='GitHub Logo' />
                 </a>
             </div>
 
@@ -28,7 +28,7 @@ export default function Works() {
                     <img className='workImg' src={Schedule} alt='Website Screenshot' />
                 </a>
                 <a className='workLink' href='https://github.com/Captianbeau/Scheduler'>
-                    <img src={GitLogo} alt='GitHub Logo' />
+                    <img className='gitLink' src={GitLogo} alt='GitHub Logo' />
                 </a>
             </div>
 
@@ -42,7 +42,7 @@ export default function Works() {
                     <img className='workImg' src={Quiz} alt='Website Screenshot' />
                 </a>
                 <a className='workLink' href='https://github.com/Captianbeau/Quiz-DarbiesADHD'>
-                    <img src={GitLogo} alt='GitHub Logo' />
+                    <img className='gitLink' src={GitLogo} alt='GitHub Logo' />
                 </a>
 
             </div>
@@ -57,7 +57,7 @@ export default function Works() {
                     <img className='workImg' src={Garden} alt='Website Screenshot' />
                 </a>
                 <a className='workLink' href='https://github.com/Captianbeau/Garden-Planner'>
-                    <img src={GitLogo} alt='GitHub Logo' />
+                    <img className='gitLink' src={GitLogo} alt='GitHub Logo' />
                 </a>
 
             </div>
@@ -72,7 +72,7 @@ export default function Works() {
                     <img className='workImg' src={Books} alt='Website Screenshot' />
                 </a>
                 <a className='workLink' href='https://github.com/Captianbeau/BooksRefactor'>
-                    <img src={GitLogo} alt='GitHub Logo' />
+                    <img className='gitLink' src={GitLogo} alt='GitHub Logo' />
                 </a>
             </div>
 

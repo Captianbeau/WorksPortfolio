@@ -12,18 +12,24 @@
 /* header */
 header {
   margin: 0;
+  
   padding: 10px;
   background-image: url('./assets/images/background-header.jpg');
 }
 
 h1 {
-  margin: 0;
+  margin-top: 5%;
 
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+h2{
+  font-size:2em;
+}
 /* navigation */
+nav{
+  margin-bottom:20px;
+}
 a {
   padding-left: 15px;
   padding-right: 15px;
@@ -37,8 +43,10 @@ a {
   display: none;
 }
 
+/* main */
 main {
-  
+  padding-top:5%;
+  padding-bottom: 10%;
   margin: 10px;
   justify-items: center;
 }
@@ -63,12 +71,24 @@ margin-right:10%;
   
 }
 /* Works Page */
+h3{
+  font-size: 30px;
+}
 .works {
   border: solid 4px var(--white);
 }
 .workImg{
   max-width: 700px;
-  margin:20px
+  margin:20px;
+  border: solid 5px;
+}
+.workImg:hover{
+  border:solid 6px #005884;
+}
+
+.gitLink:hover{
+  border-radius:180px ;
+  background-color: var(--blue);
 }
 
 /* Resume page */
@@ -96,19 +116,25 @@ input {
   display: block;
   margin-left:48%
 }
-
+/* footer */
+footer{
+  padding:50px;
+  padding-bottom:4%;
+  background-image: url('./assets/images/background-footer.jpg');
+}
 @media screen and (max-width:992px) {
+  /* header */
+  a {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  /* body */
   p {
     font-size: large;
     padding: 5px;
     background-color: var(--darkgreen);
   }
-
-  a {
-    font-size: 25px;
-    margin-left: 20px;
-  }
-
+/* works page */
   .works {
     width: 75%;
     margin-left: 12%;
@@ -120,6 +146,7 @@ input {
     max-width: 300px;
   }
 
+  /* contact page */
   .form {
     justify-items: center;
   }
@@ -137,6 +164,7 @@ input {
 }
 
 @media screen and (max-width:430px) {
+  /* header */
   a {
     justify-content: center;
     margin-bottom: 10px;
@@ -145,6 +173,7 @@ input {
     display: flex;
   }
 
+  /* works page */
   .workLink {
     border: none;
   }
@@ -165,12 +194,17 @@ input {
     border: solid 5px var(--purple);
   }
 
+  /* resume */
   .buttonLink {
     border: none;
   }
 
+/* contact form */
   input {
     width: 95%;
-
+    padding-right: 0px;
+  }
+  .submit{
+    margin-left: 39%;
   }
 }
