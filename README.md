@@ -25,8 +25,8 @@ On the contact a user can input their name, email and a message for me.
 
 
 ## Credits
-- [alt text](https://www.youtube.com/watch?v=dG_ETBR8viE)
-- [alt text](https://medium.com/@thomasaugot/create-a-react-contact-form-with-email-js-cad2c8606f33)
+- [How to send Contact form details to Gmail using React](https://www.youtube.com/watch?v=dG_ETBR8viE) by  Eazy2Code
+- [Create a React Contact Form with Email.js](https://medium.com/@thomasaugot/create-a-react-contact-form-with-email-js-cad2c8606f33) by Thomas Augot
 - emailjs docs
 
 
