@@ -20,7 +20,6 @@ The Resume page has the text of my resume and a link to the google document.\
 On the contact a user can input their name, email and a message for me.
   ![Contact Form](src/assets/images/contactForm.png)
 
-   ![alt text](assets/images/screenshot.png)
 
 
 
@@ -40,7 +39,7 @@ MIT
 ![My Work](src/assets/images/workpage.png)
 ![Resume](src/assets/images/resumepage.png)
 ![Contact](src/assets/images/contactpage.png)
-![alt text](src/assets/images/screenshot.png)
-![badmath]()
+
+
 
 
