@@ -22,21 +22,24 @@ export default function Contact () {
     return <div>
         <form className='form' ref={form} onSubmit={sendEmail}>
         <input
+        className='email'
             name="user_name"
             type="text"
             placeholder="Your Name"
             />
             <input
+            className='email'
             name="email"
             type="text"
             placeholder="Email"
             />
             <input
+            className='message'
             name="message"
             type="text"
             placeholder="Your Message"
             />
-            <button type="submit" value="Send">
+            <button className='submit' type="submit" value="Send">
                 Submit
             </button>
         </form>
